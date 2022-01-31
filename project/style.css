@@ -1,0 +1,261 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.main-header_brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header_brand img {
+    width: 64px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigations_item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigations_item a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main-navigations_item a:hover {
+    color: #efb6df;
+}
+
+.main-navigations_item.active a {
+    color: #efb6df;
+}
+.to-upprcase{
+    text-transform: uppercase;
+}
+/* mainsection */
+.main-section{
+    padding: 100px 30px;
+}
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+.main-section-img{
+    text-align: right;
+}
+.main-section-welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-section-introdution{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364e
+}
+.main-section-position{
+    color: #05364e;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom:20px;
+}
+.main-section-social-networks a {
+    color:#8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+}
+.main-section-social-networks a:hover{
+    color:#1c44e4;
+}
+.main-section-action{
+    margin-top: 30px;
+   
+}
+.clearfix{
+    clear: both;
+}
+/* statistics section */
+.statistics{
+    padding-top: 100px;
+}
+.statistics-item{
+    display: inline-block;
+    background-color: #f8faff;
+    text-align:center;
+    padding: 5px 10px;
+    margin-right: 10px;
+    width: 150px;
+}
+.button{
+    border: none;
+    background-color:#1c44e4;
+    color: #fff;
+    font-weight:500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.statistics-number{
+    font-size:27px;
+    color: #1c44e4;
+}
+.statistics-title{
+    font-size:16px;
+    color: #797979;
+}
+
+/* About me section */
+.about-me{
+    padding:100px 0px;
+}
+.about-me > div{
+    width: 50%;
+    float:left;
+}
+.about-me img{
+    width: 90%;
+}
+.section-subtitle{
+    latter-spacing: 2px;
+    font-weight: 500;
+    margin-buttom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+.section-title{
+    margin-top: 5px;
+    font-size:42px;
+    font-weight: 700px;
+    text-transform:capitalize;
+    color:#05394d;
+}
+.about-me-description{
+    font-size:14px;
+    font-weight 300px;
+    color: #797979;
+    line-height: 27px;
+
+}
+.about-me-action{
+    margin-top: 40px;
+}
+
+.blur-line{
+    display: inline-block;
+    margin-left:5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+/* services section */
+.services{
+    padding-top: 100px;
+}
+.service-card{
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: #f8feff;
+    float: left;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.services-card-title{
+    color:#05364d;
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+.servise-card-description{
+    font-size: 14px;
+    line-height: 27px;
+    font-weight:300;
+    color:#797979;
+    text-align: justify !important;
+    
+}
+
+.service-card-link{
+    font-size:13px;
+    font-weight: 50;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+.service-card:hover, .service-card-link:hover{
+    background-color: #1c44e4;
+    color: #fff;
+}
+
+/* /services section */
+
+/* clients */
+.clients{
+    padding-top: 100px;
+}
+.client-item >div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.client-item-img img{
+        width: 100%;
+}
+
+.client-item-name{
+    font-size: 50px;
+    margin-bottom: 4px;
+}
+.client-item-position{
+    fint-size: 14px;
+    font-weight: 500;
+    color:#5b6d75;
+}
+.client-item-info{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.client-item-review{
+    font-size:14px;
+    line-height: 27px; 
+    font-weight: 300;
+    color: #5b6d75;
+    
+}
+.client-item-rate{
+    color: yellow;
+}
+/* /clients */
+.main-header{
+    position: fixed;
+    width: 100%;
+    background-color: #f8feff;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0/ 10%);
+}

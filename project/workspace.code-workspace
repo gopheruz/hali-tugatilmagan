@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\loyiha"
+		}
+	],
+	"settings": {
+		"comments.openPanel": "neverOpen",
+		"liveServer.settings.multiRootWorkspaceName": "project"
+	}
+}
